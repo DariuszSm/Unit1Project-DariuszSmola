@@ -41,5 +41,6 @@ public class Main {
         System.out.println("Total bill: " + totalBill);
         System.out.println("Tip each person pays: " + tipPerPerson);
         System.out.println("Total amount per person: " + totalPerPerson);
+        s.close();
     }
 }
